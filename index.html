@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <meta name="viewport" content="initial-scale=1, user-scalable=no">
 </head>
 <body>
 <div class="calculator">
@@ -12,28 +18,28 @@
 
     <div class="keypad">
         <div class="keys">
-            <button type="button" class="btn btn-info btn-xs">7</button>
-            <button type="button" class="btn btn-info btn-xs">8</button>
-            <button type="button" class="btn btn-info btn-xs">9</button>
-            <button type="button" class="btn btn-info btn-xs" "operator">÷</button>
+            <button type="button" class="btn btn-info btn-lg">7</button>
+            <button type="button" class="btn btn-info btn-lg">8</button>
+            <button type="button" class="btn btn-info btn-lg">9</button>
+            <button type="button" class="btn btn-warning btn-lg"><span class="operator">÷</span></button>
         </div>
         <div class="keys">
-            <button type="button" class="btn btn-info btn-xs">6</button>
-            <button type="button" class="btn btn-info btn-xs">5</button>
-            <button type="button" class="btn btn-info btn-xs">4</button>
-            <button type="button" class="btn btn-info btn-xs" "operator">×</button>
+            <button type="button" class="btn btn-info btn-lg">4</button>
+            <button type="button" class="btn btn-info btn-lg">5</button>
+            <button type="button" class="btn btn-info btn-lg">6</button>
+            <button type="button" class="btn btn-warning btn-lg"><span class="operator">x</span></button>
         </div>
         <div class="keys">
-            <button type="button" class="btn btn-info btn-xs">3</button>
-            <button type="button" class="btn btn-info btn-xs">2</button>
-            <button type="button" class="btn btn-info btn-xs">1</button>
-            <button type="button" class="btn btn-info btn-xs">-</button>
+            <button type="button" class="btn btn-info btn-lg">1</button>
+            <button type="button" class="btn btn-info btn-lg">2</button>
+            <button type="button" class="btn btn-info btn-lg">3</button>
+            <button type="button" class="btn btn-warning btn-lg"><span class="operator">-</span></button>
         </div>
         <div class="keys">
-            <button type="button" class="btn btn-success btn-xs" "clear">c</button>
-            <button type="button" class="btn btn-info btn-xs">0</button>
-            <button type="button" class="btn btn-info btn-xs" "eval">=</button>
-            <button type="button" class="btn btn-info btn-xs" "operator">+</button>
+            <button type="button" class="btn btn-success btn-lg"><span class="clear">C</span></button>
+            <button type="button" class="btn btn-info btn-lg">0</button>
+            <button type="button" class="btn btn-danger btn-lg"><span class="eval">=</span></button>
+            <button type="button" class="btn btn-warning btn-lg"><span class="operator">+</span></button>
         </div>
 </body>
 </html>
