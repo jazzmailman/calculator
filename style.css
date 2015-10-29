@@ -1,14 +1,11 @@
-.calculator button {
-    border: 1px solid green;
-    width: 20%;
-    margin: 5px;
-}
 
 .calculator {
     border: 1px solid black;
     padding: 20px;
     width: 350px;
     background-color: cyan;
+    float: none;
+    margin: auto;
 }
 
 .screen input {
@@ -18,3 +15,8 @@
     text-align: center;
 }
 
+.calculator button {
+    border: 1px solid green;
+    width: 20%;
+    margin: 5px;
+}
