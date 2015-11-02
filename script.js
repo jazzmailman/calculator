@@ -12,7 +12,7 @@
 function callback(type, value, item) {
     switch (value) {
         case undefined:
-            $('.display_area').html("");
+            $('.display_area').html("0");
             break;
         default:
             $('.display_area').html(value);
@@ -35,4 +35,4 @@ var my_calculator = new calculator(callback);
                     break;
             }
         });
-    })
+    });
